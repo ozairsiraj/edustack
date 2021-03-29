@@ -1,8 +1,7 @@
 body{
     margin:0px;
     text-align: center;
-    background-color:#7433c9;
-    
+    background-color:#154c79;
    
 }
 .container{
@@ -20,7 +19,7 @@ body{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin-top: 0px;
     text-transform: capitalize;
-    
+    color:white;
 }
 .container input{
     box-shadow: none;
