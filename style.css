@@ -1,7 +1,7 @@
 body{
     margin:0px;
     text-align: center;
-    background-color:grey
+    background-color:rgb(166, 232, 235)
     
    
 }
@@ -47,7 +47,7 @@ body{
     text-transform: capitalize;
     width: 20px;
     margin: auto;
-    color: white;
+    color: rgb(255, 255, 255);
     background-color: purple;
     
 }
