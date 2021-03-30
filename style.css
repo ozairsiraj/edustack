@@ -57,5 +57,6 @@ body{
     margin: auto;
     color: rgb(255, 255, 255);
     background-color: purple;
+    cursor: pointer;
     
 }
