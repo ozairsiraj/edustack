@@ -3,17 +3,14 @@ body{
     margin:0px;
     text-align: center;
     height: 99vh;
-    background: rgb(25,25,78);
-    background: linear-gradient(259deg, rgba(25,25,78,1) 20%, rgba(52,52,101,1) 49%, rgba(5,8,55,1) 89%);
     background-repeat: no-repeat;   
     background-size: cover;
     overflow: hidden;
-
+    background: rgb(25,25,78);
+    background: linear-gradient(259deg, rgba(25,25,78,1) 20%, rgba(52,52,101,1) 49%, rgba(5,8,55,1) 89%);
 }
-.context{
-    max-width: 1060px; 
-    padding: 0 20px;
-    margin: auto; 
+a{
+    text-decoration: none;
 }
 .container{
    width:325px;
@@ -60,3 +57,93 @@ body{
     cursor: pointer;
     
 }
+nav{
+    
+    overflow:auto;
+    padding: 10px 560px;
+
+}
+nav a{
+    color: white;
+
+
+}
+
+nav ul{
+    margin: 0;
+    list-style: none;
+    
+   
+    
+}
+nav ul li{
+    float:left;
+    
+}
+nav ul li a{
+    display: flex;
+    padding: 20px;
+    background-color: gray; 
+    margin: 8px; 
+}
+.dnt input{
+    box-shadow: none;
+    padding: 11px;
+    background: #fff;
+    color: #484848;
+    border: 1px solid #DDD;
+    border-radius: 3px;
+    font-size: 14px;
+    
+    line-height: 1.14285714;
+    font-family: Inter,sans-serif;
+    margin-bottom: 10px;
+    width: 300px;
+    font-weight: 400;
+    border-radius: 3px;
+}
+
+.dnt{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: 0 12px;
+}
+
+.dnt .search-bar{
+    margin: 12px;
+}
+
+.dnt a{
+    color: white;
+    /* padding-top: 11px; */
+    background-color: gray; 
+    align-content: center;
+    justify-content: center;
+    margin: 14px 8px 16px; 
+    padding: 5px 5px 0;
+}
+
+
+/*----Table----*/
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    height: 50%;
+    background-color: white;
+  }
+  
+    td {
+    border: 0.2px solid #d3d3d3;
+    text-align: left;
+    padding: 22px;
+  }
+a:hover{
+      color: rgb(69, 231, 196);
+  }
+nav:: {
+    color: #0000FF;
+  }
+a: {
+    color: #0000FF;
+  }
