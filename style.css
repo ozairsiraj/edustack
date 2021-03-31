@@ -9,6 +9,15 @@ body{
     background: rgb(25,25,78);
     background: linear-gradient(259deg, rgba(25,25,78,1) 20%, rgba(52,52,101,1) 49%, rgba(5,8,55,1) 89%);
 }
+.body1{
+    margin:0px;
+    text-align: center;
+    height: 100vh;
+    background-repeat: no-repeat;   
+    background-size: cover;
+    overflow: hidden;
+    background: white;
+}
 a{
     text-decoration: none;
 }
@@ -152,6 +161,55 @@ nav ul li a{
 a:hover{
       color: rgb(69, 231, 196);
   }
-a.search {
-    color: #00ff9d;
-  }
+/* home-page */
+
+main{
+    width:1000px;
+    height: 297px;
+    
+    margin: 50px auto;
+    margin-bottom: 6px;
+    display: grid;
+    color: white;
+    grid-template-columns: 40% 20% 30%;
+    
+    grid-gap:57px ;
+}
+.div1{
+background-image: url(https://www.publiccharters.org/sites/default/files/styles/large/public/images/2021-01/Blog%20%28250px%29%20%2817%29.png?itok=h1-iH_6i);
+border: 5px lightgray solid;
+box-shadow:12px 12px 2px 1px rgba(0, 0, 255, .2);
+background-size:  14cm 8.32cm;
+height: 250px;
+background-repeat: no-repeat;
+    
+}
+.div2{
+    /* background-color: green; */
+    padding: 80px;
+}
+.div3{
+    color: black;
+}
+.div3 img{
+    width: 389px;height: 88px;
+}
+.div3 p{
+    margin: 0px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    
+}
+.qs{
+    padding: 10px;
+    float:right;
+    margin-top: 0;
+    margin-right: 15%;
+    font-size: 15px;
+}
+button{
+    margin: 10%;
+    padding: 10px 20px;
+    font-size: 15px;
+    
+}
